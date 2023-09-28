@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Prints "Best School" 10 times
+COUNT=10
+until [ $COUNT -lt 1 ]
+do
+	echo "Best School"
+	let COUNT=COUNT-1
+done
